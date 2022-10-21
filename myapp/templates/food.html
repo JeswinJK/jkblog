@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Foods&Hotels</title>
+  <meta charset="utf-8">
+    {% load static %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 7500px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;}
+    }
+  </style>
+</head>
+<body>
+
+<div class="container text-center">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">WONDERS OF KANYAKUMARI - "The Place Of Heaven"</a>
+    </div>
+  </div>
+</nav>
+</div><br><br><br>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <h4>Jeswin J k - Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="home">Home</a></li>
+        <li><a href="must">Must Visit Places</a></li>
+        <li class="active"><a href="food">Foods&Hotels</a></li>
+        <li><a href="register" style="color:green;font-size:large">Join Us</a></li>
+      </ul><br>
+    </div>
+
+    <div class="col-sm-10">
+      <div class="carousel-inner" >
+    <div class="item active">
+      <img src="{% static '/foods.jpg' %}" alt="food">
+      <div class="carousel-caption">
+        <h3><strong>FOODS&HOTELS</strong></h3>
+        <p>Eat Well, Sleep Well & Explore How Much That you Can Be Possible.</p>
+      </div>
+    </div><br><br><br>
+
+  <div class="container text-center">
+    <h3><strong><u>Foods That You Must Try In And Around Kanyakumari</u></strong></h3><br>
+    <h4><em>If you are a new visitor of Kanyakunari, then there are number of food items for you to taste it. So, don't wait if you not visited here since.</em></h4>
+  </div><br><br><br>
+
+  <div  class="container text-left"><h3><strong>1.<u>NAWABS-CHICKEN BIRIYANI</u>:</strong></h3><br></div>
+    <div class="container text-center"><img src="{% static '/chicken.jpg' %}" alt="chicken"><br><br><br>
+      <h4><em>you should try the <strong>CHICKEN BIRIYANI</strong> of this restaurant. It is very delicious. You should definitely visit this place if you're from marthandam or kulasekharam. One of the best places for food in Marthandam with very reasonable price and really good ambience. Plus points - no matter what you order on the table, it won't disappoint you, staff is very kind, ambience. Drawbacks-they can play some soothing music that'll be good also, although Nawab and LFC have collaborated together but when it comes to ordering the food online through Mshop App, we have to order separately. it'll be better if they combine it together so we don't have to pay the delivery charge twice. overall good experience contented with good as always. </em></h4>
+    </div><br><br><br>
+
+  <div  class="container text-left"><h3><strong>2.<u>LASSI-FALOODA</u>:</strong></h3><br></div>
+    <div class="container text-center"><img src="{% static '/fallooda.jpg' %}" alt="falooda"><br><br><br>
+      <h4><em>The <strong>FALOODA</strong> in this shop is the favourite one for all. A small spot for dessert lovers, Tried lassi, shakes, sizzling hot chocolate with icecream and ice tea. So yumm. My go to item from the menu is Mississippi mud. Chocolate, brownie and peanut all in one shake. Dining space is small,Takeaway available with extra charges. Waiting time is less.No compromise on quality either.</em></h4>
+    </div><br><br><br>
+
+  <div  class="container text-left"><h3><strong>3.<u>TAJ-GRILL CHICKEN</u>:</strong></h3><br></div>
+    <div class="container text-center"><img src="{% static '/grill.jpg' %}" alt="grill"><br><br><br>
+      <h4><em>IN this hotel,the <strong>GRILL CHICKEN</strong> is very spicy and yummy. Dine in here with family is good more than taking out. They are accepting card payments as well. Kothu porata and chicken items are special here.the taste is really gud. Available of seats when hangout with your friends. There is also an parking facility for car and bikes.</em></h4>
+    </div><br><br><br>
+
+  <div  class="container text-left"><h3><strong>4.<u>VR-NATUKOZHI GRAVY</u>:</strong></h3><br></div>
+    <div class="container text-center"><img src="{% static '/nattukoli.jpg' %}" alt="nattukoli"><br><br><br>
+      <h4><em>you must try the <strong>NATUKOZHI GRAVY</strong> with parotta in this hotel. Good restaurant with good food. The taste and quantity of the dishes are very good. It was a weekend and they had shortage in staff but still they managed it very well. They did not left the customers unattended. Definitely recommended.</em></h4>
+    </div><br><br><br>
+
+  <div  class="container text-left"><h3><strong>5.<u>3RS PAROTTA-PALLIYADI</u>:</strong></h3><br></div>
+    <div class="container text-center"><img src="{% static '/parota.jpg' %}" alt="parotta"><br><br><br>
+      <h4><em>This is a mini shop. Here the only meal is <strong>3RS PAROTTA</strong>and beef. Otherthan no meals are available here. It is famous for its cost only. Because the cost of the parotta is only 3RS and the total pack of parotta&beef is only 30RS. so, you must try it once. it is very tasty. This hotel has no name, if you want to go there, first you can go to palliyadi then ask about the 3RS PAROTTA hotel to that area peoples, they will guide you. </em></h4>
+    </div><br><br><br>
+
+  <div  class="container text-left"><h3><strong>6.<u>RK MESS-RICE&SEAFOODS</u>:</strong></h3><br></div>
+    <div class="container text-center"><img src="{% static '/seafood.jpg' %}" alt="seafood"><br><br><br>
+      <h4><em>It gives the taste of best <strong>SEAFOODS</strong> that you have ever had tasted at many top restaurants. Most underrated place, you may find many hotels and restaurants there but believe me must try sea food.</em></h4>
+    </div><br><br><br>
+
+  <div  class="container text-left"><h3><strong>7.<u>BAJJI SHOPS</u>:</strong></h3><br></div>
+    <div class="container text-center"><img src="{% static '/bajji.jpg' %}" alt="bajji"><br><br><br>
+      <h4><em>These <strong>BAJJI SHOPS</strong> are situated in many places in kanyakumari. mostly they opened at 5PM and 8.20 everything was closed. Many people came and left without having anything as everything was sold out by 8.20. We reached around 8 and no green chutney and lemon used for capcicum bajji. This could be the reason taste was different.</em></h4>
+    </div><br><br><br>
+
+  <div  class="container text-left"><h3><strong>8.<u>1KG BIRIYANI-NAGERCOIL</u>:</strong></h3><br></div>
+    <div class="container text-center"><img src="{% static '/1kg.jpg' %}" alt="1kg"><br><br><br>
+      <h4><em>The taste  is quite good but the quantity of the <strong>1KG BIRIYANI</strong> can eat 2persons normally. Most trusted shop. No colour preservatives added and most importantly the price of the 1KG is 120RS, it is very less when compared to someother big hotels.</em></h4>
+    </div><br><br><br>
+
+  <div  class="container text-left"><h3><strong>9.<u>KAALAN SHOP</u>:</strong></h3><br></div>
+    <div class="container text-center"><img src="{% static '/kaalan.jpg' %}" alt="kaalan"><br><br><br>
+      <h4><em>Like BAJJI SHOPS, <strong>KAALAN SHOP</strong> are also situated at many places in kanyakumari and they also open the shop at evening time. In this shop, they are not only selling kaalan, they also selling fried rice, noodles, panipuri at very low cost. you should try it, if you visit kanyakumari.</em></h4>
+    </div><br><br><br>
+
+  <div  class="container text-left"><h3><strong>10.<u>MATHY-SWEETS</u>:</strong></h3><br></div>
+    <div class="container text-center"><img src="{% static '/sweets.jpg' %}" alt="sweets"><br><br><br>
+      <h4><em>you can buy any types of sweet items in <strong>MATHY</strong>. In upstairs there is lot to place to sit and enjoy snacks juice, sharjah, shawarma and many more things. Everything was tasty and among these dishes most favourite is Brownie with ice cream when you mix the stuff with ice cream and have a first spoon every time your mind say Woah it's yummy.</em></h4>
+    </div><br><br><br>
+
+
+
+</body>
+</html>
